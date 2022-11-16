@@ -19,7 +19,24 @@
     "terms": ["waiting room", "return it to your hand"],
     "tag": "Salvage"
   },
-  { "terms": ["from hand to waiting room", "search your deck"],
+  { 
+   "terms": ["waiting room", "search your deck"],
    "tag": "Drop Search"
+  },
+  {
+    "terms": ["put that battle opponent into your opponent's clock"],
+    "tag": "Clock Kick"
+  },
+  {
+    "terms": ["move this card to an open position"],
+    "tag": "Runner"
+  },
+  {
+    "terms": ["The character facing this card cannot move to another position on the stage."],
+    "tag": "Antirunner"
+  },
+  {
+    "terms": ["put it into their memory, and your opponent puts that character from their memory on any position of their stage"]
+    "tag": "blink"
   }
 ]
